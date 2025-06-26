@@ -1,0 +1,89 @@
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalContent {
+  position: relative;
+  background-color: var(--color-dark--2);
+  border-radius: 8px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.closeButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: var(--color-light--2);
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: var(--color-light--2);
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: var(--color-light--1);
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.starContainer {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.starButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.starIcon {
+  font-size: 2rem;
+  color: var(--color-brand--2);
+}
+
+.ratingText {
+  color: var(--color-light--1);
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.submitButton {
+  background-color: var(--color-brand--2);
+}
+
+.submitButton:disabled {
+  background-color: var(--color-dark--1);
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .modalContent {
+    padding: 1rem;
+  }
+}

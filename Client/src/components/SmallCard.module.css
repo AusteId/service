@@ -1,0 +1,59 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: var(--color-dark--2);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-light--2);
+  margin: 0;
+  text-align: center;
+}
+
+.info {
+  font-size: 0.9rem;
+  color: var(--color-light--1);
+  margin: 0.25rem 0;
+  text-align: left;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  justify-content: center;
+}
+
+.ratingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.rateButton {
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8rem;
+  line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+  .card {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="45.93" height="42" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256">
+  <g fill="#00c46a">
+    <!-- Bug Body -->
+    <ellipse cx="128" cy="128" rx="40" ry="60"/>
+    <!-- Bug Head -->
+    <circle cx="128" cy="60" r="20"/>
+    <!-- Antennas -->
+    <line x1="118" y1="40" x2="100" y2="10" stroke="#00c46a" stroke-width="4"/>
+    <line x1="138" y1="40" x2="156" y2="10" stroke="#00c46a" stroke-width="4"/>
+    <!-- Legs Left -->
+    <line x1="88" y1="100" x2="40" y2="80" stroke="#00c46a" stroke-width="4"/>
+    <line x1="88" y1="128" x2="40" y2="128" stroke="#00c46a" stroke-width="4"/>
+    <line x1="88" y1="156" x2="40" y2="176" stroke="#00c46a" stroke-width="4"/>
+    <!-- Legs Right -->
+    <line x1="168" y1="100" x2="216" y2="80" stroke="#00c46a" stroke-width="4"/>
+    <line x1="168" y1="128" x2="216" y2="128" stroke="#00c46a" stroke-width="4"/>
+    <line x1="168" y1="156" x2="216" y2="176" stroke="#00c46a" stroke-width="4"/>
+  </g>
+</svg>

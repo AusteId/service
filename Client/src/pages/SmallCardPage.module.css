@@ -1,0 +1,87 @@
+.container {
+  padding: 6rem 2rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.headerSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding-top: 6rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: var(--color-light--2);
+  text-align: center;
+  margin: 0 0 1rem;
+}
+
+.error {
+  color: var(--color-brand--2);
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.noEmployees {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--color-light--1);
+  margin: 0;
+}
+
+.addButton {
+  margin: 0 0 1rem;
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 22rem);
+  gap: 1rem;
+  width: 100%;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.placeholder {
+  padding: 1rem;
+  background-color: var(--color-dark--2);
+  border-radius: 8px;
+  text-align: center;
+  color: var(--color-light--2);
+}
+
+.shopDetails {
+  background-color: var(--color-dark--2);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  color: var(--color-light--2);
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 1rem;
+}
+
+.shopImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  color: var(--color-light--2);
+  text-align: center;
+  margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .cardsContainer {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+}

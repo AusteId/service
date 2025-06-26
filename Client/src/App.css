@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --breakpoint-tablet: 764px;
+  --breakpoint-desktop: 1440px;
+
+  --font-inter: 'Inter', sans-serif;
+
+  --text-heading-xxl: 4.5rem;
+  --text-heading-xl: 3rem;
+  --text-heading-l: 1.875rem;
+  --text-heading-m: 1.5rem;
+  --text-heading-s: 1.25rem;
+  --text-heading-xs: 1.125rem;
+  --text-body-l: 1.125rem;
+  --text-body-m: 1rem;
+  --text-body-s: 0.875rem;
+  --text-body-xs: 0.75rem;
+
+  --color-background: #ff0000;
+  --color-text: #333333;
+  --color-brand--1: #ffb545;
+  --color-brand--2: #00c46a;
+
+  --color-dark--0: #242a2e;
+  --color-dark--1: #2d3439;
+  --color-dark--2: #42484d;
+  --color-light--1: #aaa;
+  --color-light--2: #ececec;
+  --color-light--3: #d6dee0;
+}
+
+/* @layer base {
+  body {
+    @apply bg-[--color-dark--1] font-[--font-inter] text-[--color-text] m-0 p-0;
+  }
+
+  html, body {
+    @apply flex justify-center items-center min-h-screen;
+  }
+
+  p {
+    @apply text-[--text-body-m] text-center;
+  } */
+
+  
+@layer base {
+  body {
+    @apply bg-[--color-dark--1] font-[--font-inter] text-[--color-text] m-0 p-0;
+    width: 100%;
+    max-width: none;
+  }
+
+  html, body {
+    @apply flex flex-col min-h-screen;
+  }
+
+  p {
+    @apply text-[--text-body-m] text-center;
+  }
+}
+
